@@ -1,0 +1,143 @@
+.nav1{
+    background-image: url('bg1.jpg');
+    height: 200;
+    background-size: cover;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+#id1{
+    margin: 10px;
+    height: 150;
+    width: 150;
+}
+.nav1 button{
+    float: right;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px 4px;
+}
+#div1{
+    margin: 50px 250px;
+}
+#div2{
+    top: 100px;
+    margin: 10px;
+}
+#div3{
+    text-align: center;
+    border: solid darkblue;
+    background-color: #eee;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#id2{
+    float: right;
+    border-radius: 40%;
+}
+#id3{
+    height: 150px;
+    bottom: 10px;
+    background-color: rgb(151, 175, 163);
+}
+.div5{
+    width: 600px;
+    height: 300px;
+    margin: 10px 100px;
+}
+.header1{
+    text-align: center;
+    font-family: Helvetica;
+    margin: 10px 0px;
+    font-size: 30px;
+    border: solid lightgreen;
+    border-radius: 15px;
+    background-color: white;
+    width: 600px;
+}
+#id4{
+    text-align: left;
+    font-family: Helvetica;
+    margin: 10px 0px;
+    font-size: 30px;
+    border: solid lightblue;
+    border-radius: 15px;
+    background-color: white;
+    width: 600px;
+}
+.div7{
+    width: 500px;
+    height: 300px;
+    margin: 10px 100px;
+}
+.header2{
+    text-align: center;
+    font-family: Helvetica;
+    margin: 10px 0px;
+    font-size: 30px;
+    border: solid lightgreen;
+    border-radius: 15px;
+    background-color: white;
+    width: 1000px;
+}
+#id5{
+    text-align: left;
+    font-family: Helvetica;
+    padding: 50px 0px;
+    font-size: 30px;
+    background-color: white;
+}
+#hobbyHeader1{
+    background-color: rgb(151, 175, 163);
+    width: 100%;
+}
+#hobbyId1{
+    float: right;
+    font-size: 20px;
+    font-family: cooper black;
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    height: center;
+}
+#hobbyId2{
+    background-image: url("hobby.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contactId1{
+    background-image: url("contact.png");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  height: 75px;
+  width: 200px;
+  top: 0;
+  padding: 5px;
+  background-color: yellow;
+  border: 2px solid orange;
+  border-radius: 20px;
+  opacity: 0.3;
+}
+.sticky:hover{
+    opacity: 1;
+}
+#homeId1::first-letter{
+    font-size: x-large;
+}

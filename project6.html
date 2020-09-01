@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            My Contacts
+        </title>
+        <meta name='viewport' content='width= device-width, initial-scale= 1'>
+        <link rel="icon" href="rsk.png" type="image/png" sizes="128x128">
+        <link rel="stylesheet" type="text/css" href="C:\Users\INDIA\Desktop\Html\project3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            function pageRedirectHome() {
+                window.location.href = "project3.html";
+            }
+            function pageRedirectIntro() {
+                window.location.href = "project4.html";
+            }
+            function pageRedirectContacts() {
+                window.location.href = "project6.html";
+            }
+            function pageRedirectHobbies() {
+                window.location.href = "project5.html";
+            } 
+            function pageRedirectForm() {
+                window.location.href = "form.html";
+            }      
+        </script> 
+        <style>
+            body{
+    background-color: rgb(151, 175, 163);
+}       
+        </style> 
+        <script>
+            $(document).ready(function(){
+                $("#hideshow").click(function(){
+                    $("#contactId2").toggle();
+                });
+                $("#fadeinout").click(function(){
+                    $("#contactId2").fadeToggle();
+                });
+                $("#slideupdown").click(function(){
+                    $("#contactId2").slideToggle();
+                });
+                $("#contactId3").find("*").css({"color": "white"});
+            });
+        </script>
+    </head>
+    <body>
+    <div class='container-fluid'>
+    <div class='row'>
+    <div class='col-lg-12'>
+        <div class='header' id='hobbyHeader1'>
+            <img id='id1' src='logo.png'>
+            <a id='hobbyId1' class='active' href='#' style='text-decoration: none; color: white;' onclick="pageRedirectContacts()">Contacts</a>
+            <a id='hobbyId1' href='#'' style='text-decoration: none; color: white;' onclick="pageRedirectHobbies()">Hobbies</a>
+            <a id='hobbyId1' style='text-decoration: none; color: white;' href='#' onclick="pageRedirectIntro()">Introduction</a>
+            <a id='hobbyId1' href='#'' style='text-decoration: none; color: white;' onclick="pageRedirectHome()">Home</a>
+        </div>
+        <div id='contactId1'></div>
+        <br>
+        <iframe src="form.html" height="200" width="300" title="Iframe Example"></iframe>
+        <div id='contactId3' style='text-align: center; font-family: arial'>
+            <button id='contactId4' type="button" class="btn btn-info"><a'style='color: white' href='#' onclick="pageRedirectForm()">Form</a></button>
+            <p style='font-size: 30px; font-weight: bold'>Rasika Gawade</p>
+            <p style='font-size: 30px'>Mob. +91 9876543210</p>
+            <p style='font-size: 30px'>gawaderasika4@gmail.com</p>
+            <br><br>
+        </div>
+        <div style='background-color: white; text-align: center; font-family: arial; padding-top: 50px; padding-bottom: 50px'>
+            <div id='contactId2'>
+                <p>Connect with me on <a href='www.linkedin.com'>LinkedIn</a> or follow me on <a href='www.twitter.com'>Twitter</a></p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal1"><p class='font-size: 20px'>Designed by Me</p></button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Design</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Rasika Gawade</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style='margin-left: 570px; width: 200px;' class="alert alert-success alert-dismissible">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Instragram</strong>
+                </div>
+            </div>
+        </div>
+        <button id="hideshow">Hide/Show</button>
+        <button id="fadeinout">Fade in/Fade out</button>
+        <button id="slideupdown">Slide up/Slide down</button>
+        <div id='id3'>
+            <img id='id2' src='smile.png' style='height: 150; width: 150'>
+            <ul>
+                <li><a style="text-decoration:none; color: black" class='active' href='#' onclick="pageRedirectContacts()">Contacts</a></li>
+                <li><a style="text-decoration:none; color: black" href='#' onclick="pageRedirectHobbies()">Hobbies</a></li>
+                <li><a style="text-decoration:none; color: black" href='#' onclick="pageRedirectIntro()">Introduction</a></li>
+                <li><a style="text-decoration:none; color: black" href='#' onclick="pageRedirectHome()">Home</a></li>
+            </ul>
+        </div>
+        <p style='color: white'>@Copyright 2020 my Designs</p>
+    </div>
+    </div>
+    </div>
+    </body>
+</html>

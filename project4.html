@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            My Introduction
+        </title>
+        <meta name='viewport' content='width= device-width, initial-scale= 1'>
+        <link rel="icon" href="rsk.png" type="image/png" sizes="128x128">
+        <link rel="stylesheet" type="text/css" href="C:\Users\INDIA\Desktop\Html\project3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            function pageRedirectHome() {
+                window.location.href = "project3.html";
+            }
+            function pageRedirectIntro() {
+                window.location.href = "project4.html";
+            }
+            function pageRedirectContacts() {
+                window.location.href = "project6.html";
+            }
+            function pageRedirectHobbies() {
+                window.location.href = "project5.html";
+            }      
+        </script>
+        <script>
+            $(document).ready(function(){
+                $(".header1").click(function(){
+                    $("#id4").slideToggle("slow");
+                });
+            });   
+        </script> 
+        <style>
+            body{
+    background-color: rgb(151, 175, 163);
+}
+        </style> 
+    </head>
+    <body>
+    <div class='container-fluid'>
+    <div class='row'>
+    <div class='col-lg-12'>
+        <div class='header' id='hobbyHeader1'>
+            <img id='id1' src='logo.png'>
+            <a id='hobbyId1' href='#' style='text-decoration: none; color: white;' onclick="pageRedirectContacts()">Contacts</a>
+            <a id='hobbyId1' href='#'' style='text-decoration: none; color: white;' onclick="pageRedirectHobbies()">Hobbies</a>
+            <a id='hobbyId1' class='active'' style='text-decoration: none; color: white;' href='#' onclick="pageRedirectIntro()">Introduction</a>
+            <a id='hobbyId1' href='#'' style='text-decoration: none; color: white;' onclick="pageRedirectHome()">Home</a>
+        </div>
+        <div style='text-align: center'>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow text-info"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-grow text-secondary"></div>
+            <div class="spinner-grow text-dark"></div>
+        </div>
+        <div style='background-color: white; height: 100px'>
+            <p style='text-align: center; color: black; font-size: 80px'>Live. Laugh. Love.</p>
+        </div>
+        <div style='background-color: white; height: 300px'>
+            <img src='simplicity.jpg' style='float: left;'>
+            <div>
+                <br>
+                <p style='text-align: center; color: black; font-size: 50px'>Simple Lifestyle</p>
+                <p style='text-align: center; color: black; font-size: 30px'>The whole of life is just like watching a film. Only it's as though you always get in ten minutes after the big picture has started, and no-one will tell you the plot, so you have to work it out all yourself from the clues.</p>
+            </div>
+        </div>
+        <div style='background-color: white; height: 300'>
+            <img src='music.jpg' style='float: right;'>
+            <div>
+                <br>
+                <p style='text-align: center; color: black; font-size: 50px'>Meditation</p>
+                <p style='text-align: center; color: black; font-size: 30px'>“Music is the universal language of mankind.” “Where words fail, music speaks.” “Life is like a beautiful melody, only the lyrics are messed up.” “Music is the language of the spirit.</p>
+            </div>
+        </div>
+        
+            <div id='id3'>
+                <img id='id2' src='smile.png' style='height: 150; width: 150'>
+                <ul>
+                    <li><a style="text-decoration:none; color: black" href='#' onclick="pageRedirectContacts()">Contacts</a></li>
+                    <li><a style="text-decoration:none; color: black" href='#' onclick="pageRedirectHobbies()">Hobbies</a></li>
+                    <li><a style="text-decoration:none; color: black" class='active' href='#' onclick="pageRedirectIntro()">Introduction</a></li>
+                    <li><a style="text-decoration:none; color: black" href='#' onclick="pageRedirectHome()">Home</a></li>
+                </ul>
+            </div>
+        <p style='color: white'>@Copyright 2020 my Designs</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    </body>
+</html>

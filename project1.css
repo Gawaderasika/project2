@@ -1,0 +1,31 @@
+#div1{
+	float: left;
+}
+#div2{
+	float: right;
+}
+#link1{
+	color: blue;
+}
+#link1:hover{
+	color: green;
+}
+#link1:active{
+	color: red;
+}
+#link1:visited{
+	color: purple;
+}
+#left1{
+	float: left;
+	width: 30%;
+	background-color: pink;
+}
+#right1{
+	float: right;
+	width: 30%;
+	background-color: yellow;
+}
+#center1{
+	background-color: green;
+}
